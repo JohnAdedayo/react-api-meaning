@@ -1,0 +1,126 @@
+[
+    {
+        "Clipboard": {
+            "onCopy": "the oncopy event occurs when the user starts a copy process in the browser. ",
+            "onCut": "the oncut event occurs when the user cuts the content of an element. ",
+            "onPaste": "the onpaste event occurs when the user pastes some content into an element."
+        }
+    },
+    {
+        "Composition": {
+            "onCompositionEnd": " It is fired when a text composition system such as an input method editor completes or cancels the current composition session.",
+            "onCompositionStart": " occurs when a text composition system such as an input method editor starts a new composition session",
+            "onCompositionUpdate": "it is fired when a new character is received in the context of a text composition session controlled by a text composition system such as an input method editor."
+        }
+    },
+    {
+        "Keyboard": {
+            "onKeyPress": "The onkeyup event occurs when the user presses a key on the keyboard.",
+            "onKeyDown": "The onkeydown event occurs when the user presses a key on the keyboard.",
+            "onKeyUp": "Tte onkeydown event occurs when the user releases a key on the keyboard."
+        }
+    },
+    {
+        "Focus": {
+            "onFocus": "The onFocus event is called when the element (or some element inside of it) receives focus",
+            "onBlur": "onBlur triggers when focus is lost from the input element in context"
+        }
+    },
+    {
+        "Form": {
+            "onChange": "The onchange event occurs when the value of an HTML element is changed.",
+            "onInput": "The oninput event occurs when an element gets input.",
+            "onSubmit": "It's an event handler attached to the form submission event "
+        }
+    },
+    {
+        "Mouse": {
+            "onClick": "enables you to call a function and trigger an action when a user clicks an element, such as a button, in your app.",
+            "onContextMenu": "The event occurs when the user right-clicks an HTML element to open the context menu.",
+            "onDoubleClick": "A callback that will be executed when a dblclick event is triggered",
+            "onDrag": "The ondrag event occurs when a selection is being dragged.",
+            "onDragEnd": "The ondragend event occurs when a user has finished dragging a selection.",
+            "onDragEnter": "The ondragenter attribute fires when a draggable element or text selection enters a valid drop target",
+            "onDragExit": "",
+            "onDragLeave": "The ondragleave event occurs when a draggable selection leaves a drop target",
+            "onDragOver": " fires when a draggable element or text selection is being dragged over a valid drop target.",
+            "onDragStart": "The ondragstart event occurs when the user starts to drag a selection.",
+            "onDrop": "The ondrop event occurs when a draggable selection is dropped on a target.",
+            "onMouseDown": "The onmousedown event occurs when a user presses a mouse button over an HTML element.",
+            "onMouseEnter": "The onmouseenter event occurs when the mouse pointer enters an element.T",
+            "onMouseLeave": "The onmouseleave event occurs when the mouse pointer leaves an element",
+            "onMouseMove": "The onmousemove event occurs when the pointer moves over an element.T",
+            "onMouseOut": "The onmouseout event occurs when the mouse pointer moves out of an element",
+            "onMouseOver": "The onmouseover event occurs when the mouse pointer enters an element.",
+            "onMouseUp": "The onmouseup event occurs when a mouse button is released over an element"
+        }
+    },
+    {
+        "Selection": {
+            "onSelect": "The onselect event occurs after some text has been selected in an element."
+        }
+    },
+    {
+        "Touch": {
+            "onTouchCancel": "The touchcancel event occurs when a touch event is interrupted.",
+            "onTouchEnd": "The touchend event occurs when a user removes the finger from an element..",
+            " onTouchMove": "The touchmove event occurs when a user moves a finger across the screen.",
+            "onTouchStart": "The touchstart event occurs when a user touches an element"
+        }
+    },
+    {
+        "UI": {
+            "onScroll": "The onscroll event occurs when an element's scrollbar is being scrolled."
+        }
+    },
+    {
+        "Mouse Wheel": {
+            "onWheel": "The onwheel event occurs when the mouse wheel is rolled over an element."
+        }
+    },
+    {
+        "Media": {
+            "onAbort": " The onabort event occurs when a download is aborted, not when an error occurs.",
+            "onCanPlay": "The oncanplay event occurs when the browser can start playing a media",
+            "onCanPlayThrough": "The oncanplaythrough event occurs when the browser estimates it can play through a media without having to stop for buffering.",
+            "onDurationChange": "The oncanplaythrough event occurs when the browser estimates it can play through a media without having to stop for buffering.",
+            "onEmptied": "The onemptied event occurs when the an audio or video is empty",
+            "onEncrypted": "The encrypted event is fired when the media encounters some initialization data indicating it is encrypted.",
+            "onEnded": "The onended event occurs when an audio/video has reached the end.",
+            "onError": "The onerror event is triggered if an error occurs while loading an external file (e.g. a document or an image).",
+            "onLoadedData": "The onloadeddata event occurs when a media frame is loaded, but does not guarantee that enough data is available to begin playing",
+            "onLoadedMetadata": "The onloadedmetadata event occurs when meta data for a media has been loaded. ",
+            "onLoadStart": "The onloadstart event occurs when the browser starts the loading process of an audio or video",
+            "onPause": "The onpause event occurs when an audio/video is paused. The onpause event also occurs when an audio/video has reached the end.",
+            "onPlay": "The onplay event occurs when an audio/video is started.",
+            "onPlaying": "The onplaying event occurs when an audio/video starts playing. The onplaying event also occurs when an audio/video resumes after beeing paused or buffered.",
+            "onProgress": "The onprogress event occurs when the browser is downloading an audio or video.",
+            "onRateChange": "The onratechange event occurs when the playing speed of a media is changed (",
+            "onSeeked": "The onseeked event occurs when a user has seeked a new position in a medi",
+            "onSeeking": "The onseeking event occurs when a user starts seeking a new position in a media",
+            "onStalled": "The onstalled event occurs when the browser is trying to get media data that is not available",
+            "onSuspend": "The onsuspend event occurs when the browser is not getting media data.",
+            "onTimeUpdate": "The ontimeupdate event occurs when the play time of a media changes",
+            "onVolumeChange": "The onvolumechange event occurs when a media volume is changed. The onvolumechange event occurs when the volume is increased og decreased.",
+            "onWaiting": "The onwaiting event occurs when a media must wait for the next frame"
+        }
+    },
+    {
+        "Image": {
+            "onLoad": "The onload event occurs when an object has been loaded.",
+            "onError": "he onerror event is triggered if an error occurs while loading an external file (e.g. a document or an image)."
+        }
+    },
+    {
+        " Animation": {
+            "onAnimationStart": "The animationend event is fired when a CSS Animation has completed.",
+            "onAnimationEnd": "The animationstart event is fired when a CSS Animation has started.",
+            "onAnimationIteration": "The animationiteration event is fired when an iteration of a CSS Animation ends, and another one begins"
+        }
+    },
+    {
+                 "Transition":{
+                 "onTransitionEnd":"The transitionend event is fired when a CSS transition has completed"
+                 }
+                }
+            ]
